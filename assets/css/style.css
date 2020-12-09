@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     margin: 0;
-    border-bottom: 2px solid #ffb71b;
+    border-bottom: 2px solid #ffb71b; /* orangey-yellow */
 }
 
 #top-div img {
@@ -28,9 +28,10 @@
 #tiles {
     background: #000000 url("../img/ansys-tile-cell.png") top left repeat;
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     left: 0;
     margin: 0;
+    position: absolute;
 }
 
 #repos {
@@ -39,19 +40,38 @@
 }
 
 .grid {
-    background: darkgrey;
-    padding: 20px;
-    margin: 10px 0;
+    background: #373a36; /* charcoal */
     width: 400px;
-    border-radius: 5px;
+    height: 350px;
+    padding: 20px;
+    float: left;
+    margin: 10px 10px;
+    border-radius: 10px;
 }
 
 .grid a {
     text-decoration: none;
-    color: #000000;
-    font-family: sans-serif;
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
 }
 
 .grid a:hover {
+    color: #c89211; /* ocher */
     text-decoration: underline;
+}
+
+.grid img {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    position: static;
 }
