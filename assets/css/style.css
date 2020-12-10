@@ -1,8 +1,8 @@
 #top-div {
     background: #000000;
     width: 100%;
-    height: 82px;
-    padding: 10px 0 12px 0;
+    height: 88px;
+    padding: 5px 0 30px 0;
     top: 0;
     left: 0;
     margin: 0;
@@ -10,7 +10,7 @@
 }
 
 #top-div img {
-    height: 60px;
+    height: 80px;
     margin: 0;
     padding: 0;
     display: inline-block;
@@ -18,10 +18,12 @@
 
 #top-div p {
     color: #ffffff;
-    padding: 0 0 10px 20px;
+    padding: 0 0 10px 28px;
+    position: relative;
+    bottom: 8px;
     margin: 0;
-    font-size: 16px;
-    font-family: sans-serif;
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
     width: auto;
 }
 
@@ -35,14 +37,22 @@
 }
 
 #repos {
-    padding: 30px 0;
+    padding: 15px 0;
     margin: 0 0 0 20px;
+}
+
+.repo_category {
+    display: block;
+    padding: 40px 0 0 28px; 
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: #d9d8d6; /* light-grey */
 }
 
 .grid {
     background: #373a36; /* charcoal */
     width: 400px;
-    height: 350px;
+    height: 370px;
     padding: 20px;
     float: left;
     margin: 10px 10px;
@@ -52,6 +62,15 @@
 .grid a {
     text-decoration: none;
     color: #ffffff;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tech_tagline {
+    text-decoration: none;
+    color: #898a8d; /* steel */
+    color: #d9d8d6; /* light-grey */
     font-family: Helvetica, sans-serif;
     text-align: center;
 }
@@ -62,9 +81,7 @@
 }
 
 .grid img {
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 10px auto;
     display: block;
 }
 
